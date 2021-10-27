@@ -9,4 +9,9 @@ public class EchoController {
     public String echo1() {
         return "echo1";
     }
+
+    @GetMapping("/echo2")
+    public String echo2() {
+        return "echo2";
+    }
 }
